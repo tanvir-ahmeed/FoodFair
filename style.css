@@ -1,3 +1,7 @@
+body{
+    font-family: 'PT Serif', serif;
+    margin: 0%;
+}
 .container{
     display: flex;
     padding-left: 30px;
@@ -9,11 +13,11 @@
 }
 .half-width{
     width: 50%;
-    padding: 5px;
-
+    padding-left: 10%;
+    margin-bottom: 10px;
 }
 .half-width img{
-    width: 80%;
+    width: 70%;
     padding: 0 20px;
     margin: 20px;
     
@@ -23,7 +27,7 @@
     border-radius: 15px;
     background-color:rgb(216, 89, 38);
     padding: 10px 20px;
-    cursor: pointer;
+    
 }
 .btn a{
     text-decoration: none;
@@ -32,30 +36,33 @@
 }
 
 #s-img{
-    width: 49%;
+    width: 57%
+    
 }
 .about{
-    background-image: url(images/shapes/7.png);
+    background-image: url(images/shapes/Frame\ 56.jpg);
     background-repeat: no-repeat;
-    
+    margin-top: 20px;
 }
 #half{
     margin-top: 100px;
+    padding-right: 10%;
+   
 }
 .recipies{
     width: 800px;
     text-align: center;
     padding-top: 50px;
-    padding-left: 250px;
+    padding-left: 270px;
 }
 .title{
     display: flex;
 }
-.box1 img{
+.boxes img{
     width: 100%;
     
 }
-.box1{
+.boxes{
     border: 1px solid #9da0a0;
     border-radius: 10px;
     box-shadow: 2px 2px 40px rgb(97, 94, 94);
