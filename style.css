@@ -1,24 +1,93 @@
-body{
-    margin: 0%;
-}
-.first-banner{
+.container{
     display: flex;
+    padding-left: 30px;
+    padding-top: 100px;
 }
-.span-color{
-    color: orange;
+.span{
+    color: orangered;
+    
 }
 .half-width{
     width: 50%;
-    padding: 5%;
+    padding: 5px;
+
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
+    padding: 0 20px;
+    margin: 20px;
+    
 }
-.link-button{
+.btn{
+    border: none;
+    border-radius: 15px;
+    background-color:rgb(216, 89, 38);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn a{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
     color: white;
     font-weight: 700;
+}
+
+#s-img{
+    width: 49%;
+}
+.about{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    
+}
+#half{
+    margin-top: 100px;
+}
+.recipies{
+    width: 800px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 250px;
+}
+.title{
+    display: flex;
+}
+.box1 img{
+    width: 100%;
+    
+}
+.box1{
+    border: 1px solid #9da0a0;
     border-radius: 10px;
+    box-shadow: 2px 2px 40px rgb(97, 94, 94);
+    padding: 10px;
+    margin: 30px;
+}
+
+.count{
+    width: 1200px;
+    display: flex;
+   
+    
+}
+.section{
+
+    width: 95%;
+    margin: 30px;
+   text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgb(156, 151, 151);
+}
+.count-1{
+    padding-left: 250px;
+}
+
+.footer{
+    padding-top: 100px;
+}
+.center{
+    text-align: center;
+    background-color: #0f0c13;
+    height: 300px;
+    padding-top: 100px;
+    color: white;
 }
