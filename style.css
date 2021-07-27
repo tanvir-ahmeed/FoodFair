@@ -1,0 +1,24 @@
+body{
+    margin: 0%;
+}
+.first-banner{
+    display: flex;
+}
+.span-color{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
