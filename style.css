@@ -93,13 +93,7 @@ body{
     color: #434343;
     text-align: center;
   }
-  .inner{
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 20px;
-  }
-  
+ 
  
   
   .row{
